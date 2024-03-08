@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goodday">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Halo Selamat Datang Di Toko GoodDay"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tvgd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Kopi Kesukaan Kamu Dibawah Ya..."
+        android:textSize="17sp"
+        android:layout_below="@+id/tvgd"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etgd"/>
+
+    <ImageView
+        android:id="@+id/gd1"
+        android:layout_width="148dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/etgd"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_gdthiramisu" />
+
+    <ImageView
+        android:id="@+id/gd2"
+        android:layout_width="148dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/gd1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_gdmhocachino" />
+
+    <ImageView
+        android:id="@+id/gd3"
+        android:layout_width="148dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/gd2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_gdgreantea" />
+
+    <ImageView
+        android:id="@+id/gd4"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gd3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_gdcookies" />
+
+    <ImageView
+        android:id="@+id/gd5"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gd4"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_gdchapuchino" />
+
+    <TextView
+        android:id="@+id/tv111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvgd"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="67dp"
+        android:text="GoodDay Thiramisu"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv112"
+        android:text="GoodDay Mhocachino"
+        android:textSize="20sp"
+        android:layout_below="@+id/bttnnn1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv13"
+        android:text="GoodDay Grean Tea"
+        android:textSize="20sp"
+        android:layout_below="@+id/bttnnn2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv14"
+        android:text="GoodDay Cookies"
+        android:textSize="20sp"
+        android:layout_below="@+id/bttnnn3"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv15"
+        android:text="GoodDay Chapuchino"
+        android:textSize="20sp"
+        android:layout_below="@+id/bttnnn4"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bttnnn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gd1"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bttnnn2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gd2"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/bttnnn1"/>
+
+    <Button
+        android:id="@+id/bttnnn3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gd3"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/bttnnn2"/>
+
+    <Button
+        android:id="@+id/bttnnn4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gd4"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/bttnnn3"/>
+
+    <Button
+        android:id="@+id/bttnn5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gd5"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/bttnnn4"/>
+
+</RelativeLayout>

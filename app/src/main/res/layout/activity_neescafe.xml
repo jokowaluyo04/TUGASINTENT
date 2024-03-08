@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neescafe">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Halo Selamat Datang Di Toko Nescafe"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tvncs"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Kopi Kesukaan Kamu Dibawah Ya..."
+        android:textSize="17sp"
+        android:layout_below="@+id/tvncs"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etensc"/>
+
+    <ImageView
+        android:id="@+id/nsc1"
+        android:layout_width="148dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/etensc"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_nsccapuchino" />
+
+    <ImageView
+        android:id="@+id/nsc2"
+        android:layout_width="148dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/nsc1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_nsccaramel" />
+
+    <ImageView
+        android:id="@+id/nsc3"
+        android:layout_width="148dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/nsc2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_nscmocha" />
+
+    <ImageView
+        android:id="@+id/nsc4"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/nsc3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_nscoriginal" />
+
+    <ImageView
+        android:id="@+id/nsc5"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/nsc4"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_nsclatte" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvncs"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="67dp"
+        android:text="Nescafe Chapuchino"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv12"
+        android:text="Nescafe Caramel"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnnn1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv13"
+        android:text="Nescafe Mocha"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnnn2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv14"
+        android:text="Nescafe Original"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnnn3"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv15"
+        android:text="Nescafe Latte"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnnn4"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnnn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nsc1"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnnn2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nsc2"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnnn1"/>
+
+    <Button
+        android:id="@+id/btnnn3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nsc3"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnnn2"/>
+
+    <Button
+        android:id="@+id/btnnn4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nsc4"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnnn3"/>
+
+    <Button
+        android:id="@+id/btnn5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nsc5"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnnn4"/>
+
+</RelativeLayout>

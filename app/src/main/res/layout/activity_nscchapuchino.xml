@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nscchapuchino">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn1"
+        android:text="Nescafe kaleng 220 ml -Capucino-Caramel-Minuman kekinian- kopi murah - Merah"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn2"
+        android:text="Terjual 6 bintang 5 (3 rating)"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/tvn1"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp7.999"
+        android:id="@+id/tvn3"
+        android:textSize="40sp"
+        android:layout_below="@id/tvn2"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn4"
+        android:text="Kondisi: Baru"
+        android:layout_below="@+id/tvn3"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn5"
+        android:text="Min. Pemesanan: 1 Buah"
+        android:layout_below="@+id/tvn4"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn6"
+        android:text="Warna : Merah"
+        android:layout_below="@+id/tvn5"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn7"
+        android:text="- Untuk Barang2 food seperti nugget dan sossis dll kami tidak menerima komplain jika rusak dalam perjalanan kami sarankan untuk via grab atau gojek saja biar aman.."
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn6"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn8"
+        android:text="- mohon maaf tidak menerima komplain apabila terjadi keruskan barang dalam pengiriman karena di luar proses kami,,,"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn7"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn9"
+        android:text="- Dimohon untuk di unboxing jika ingin membuka barang agar jika terjadi kesalahan,"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn8"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn10"
+        android:text="- kami bisa mengetahui kekurangan dan kerusakan pada produk yang kami kirim,,,"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn9"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn11"
+        android:text="- Mohon maaf apabila ada kesalahan pada gambar produk"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn10"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn12"
+        android:text="terima kasih dan selamat berbelanja....."
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tvn11"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnsc1"
+        android:layout_below="@+id/tvn12"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="BELI"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnsc2"
+        android:layout_below="@+id/tvn12"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="240dp"
+        android:text="SHARE"/>
+
+
+    <ImageView
+        android:id="@+id/nsff2"
+        android:layout_width="196dp"
+        android:layout_height="273dp"
+        android:src="@drawable/ic_nsccapuchino"/>
+
+</RelativeLayout>

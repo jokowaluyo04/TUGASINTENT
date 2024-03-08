@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".strenergi">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn1"
+        android:text="Starbucks Doubleshot Energy Minuman Tenaga Kopi Mocha, 15 oz Can"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn2"
+        android:text="4.7 penilaian"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/tvn1"
+        android:textSize="13sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp15.999"
+        android:id="@+id/tvn3"
+        android:textSize="40sp"
+        android:layout_below="@id/tvn2"
+        android:layout_marginLeft="200dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn4"
+        android:text="Kategori: Minuman"
+        android:layout_below="@+id/tvn3"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn5"
+        android:text="Min. Pemesanan: 1 Buah"
+        android:layout_below="@+id/tvn4"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn6"
+        android:text="Merek: Starbuck"
+        android:layout_below="@+id/tvn5"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn7"
+        android:text="- Minuman tenaga kopi instan starbuck"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn6"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn8"
+        android:text="-  Menggabungkan rasa kopi mocha yang kaya dan berani dengan sentuhan yang menggembirakan."
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn7"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn9"
+        android:text="- Mocha adalah minuman dalam tin 15 oz"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn8"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn10"
+        android:text="- Dapat diminum dingin ataupun panas."
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn9"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn11"
+        android:text="- Cocok untuk dibawa kemana saja"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvn10"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvn12"
+        android:text="Dibuat dengan kopi Starbucks berkualiti tinggi, ia memberikan campuran rasa kopi dan nota coklat yang seimbang, memberikan pengalaman yang enak dan menyegarkan. Minuman ini direka untuk menyediakan pengambilan cepat dengan bahan penambah tenaga tambahannya, menjadikannya pilihan yang mudah bagi mereka yang ingin memuaskan keinginan kopi mereka dan juga mendapat tenaga."
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tvn11"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnsc1"
+        android:layout_below="@+id/tvn12"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="BELI"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnsc2"
+        android:layout_below="@+id/tvn12"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="240dp"
+        android:text="SHARE"/>
+
+
+    <ImageView
+        android:id="@+id/strr5"
+        android:layout_width="196dp"
+        android:layout_height="273dp"
+        android:src="@drawable/ic_strenergi"/>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TUGASINTENT"
+        tools:targetApi="31">
+        <activity
+            android:name=".strenergi"
+            android:exported="false" />
+        <activity
+            android:name=".strlatte"
+            android:exported="false" />
+        <activity
+            android:name=".strmocha"
+            android:exported="false" />
+        <activity
+            android:name=".strexpreso"
+            android:exported="false" />
+        <activity
+            android:name=".strnitro"
+            android:exported="false" />
+        <activity
+            android:name=".gdchapucino"
+            android:exported="false" />
+        <activity
+            android:name=".gdcookies"
+            android:exported="false" />
+        <activity
+            android:name=".gdmhocachino"
+            android:exported="false" />
+        <activity
+            android:name=".gdtiramisu"
+            android:exported="false" />
+        <activity
+            android:name=".gdgreantea"
+            android:exported="false" />
+        <activity
+            android:name=".nsclatte"
+            android:exported="false" />
+        <activity
+            android:name=".nscoriginal"
+            android:exported="false" />
+        <activity
+            android:name=".nscmhoca"
+            android:exported="false" />
+        <activity
+            android:name=".nsccaramel"
+            android:exported="false" />
+        <activity
+            android:name=".nscchapuchino"
+            android:exported="false" />
+        <activity
+            android:name=".neescafe"
+            android:exported="false" />
+        <activity
+            android:name=".goodday"
+            android:exported="false" />
+        <activity
+            android:name=".starbuck"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

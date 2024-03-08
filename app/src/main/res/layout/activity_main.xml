@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtoko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEDAI AWAK"
+        android:textStyle="italic"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettoko"
+        android:text="Menyediakan Berbagai Jenis Kopi Dengan Bran Di Bawah Ini:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvtoko"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+        android:id="@+id/starbuck"
+        android:layout_width="213dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/ettoko"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/ic_logostarbucks" />
+
+    <ImageView
+        android:id="@+id/goodday"
+        android:layout_width="213dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/starbuck"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/ic_logogoogday" />
+
+    <ImageView
+        android:id="@+id/neescafe"
+        android:layout_width="213dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/goodday"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/ic_logonescafe" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Pilih Disini Bre"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_toEndOf="@+id/starbuck"
+        android:layout_marginTop="220dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="Pilih Disini Bre"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_toEndOf="@+id/starbuck"
+        android:layout_marginTop="140dp"
+        android:layout_below="@+id/btn1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="Pilih Disini Bre"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_toEndOf="@+id/starbuck"
+        android:layout_marginTop="140dp"
+        android:layout_below="@+id/btn2"/>
+
+</RelativeLayout>

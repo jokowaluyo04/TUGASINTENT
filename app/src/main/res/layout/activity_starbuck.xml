@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".starbuck">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Halo Selamat Datang Di Toko Starbuck"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tvstr"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Kopi Kesukaan Kamu Dibawah Ya..."
+        android:textSize="17sp"
+        android:layout_below="@+id/tvstr"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etstr"/>
+
+    <ImageView
+        android:id="@+id/str1"
+        android:layout_width="148dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/etstr"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_strnitro" />
+
+    <ImageView
+        android:id="@+id/str2"
+        android:layout_width="148dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/str1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_strlight" />
+
+    <ImageView
+        android:id="@+id/str3"
+        android:layout_width="148dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/str2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_strmoca" />
+
+    <ImageView
+        android:id="@+id/str4"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/str3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_strlate" />
+
+    <ImageView
+        android:id="@+id/str5"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/str4"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_strenergi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Starbucks Nitro Cold Brew"
+        android:textSize="20sp"
+        android:layout_below="@+id/etstr"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Starbucks Double Shot Espresso"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnn1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Starbuck Double Shot Mocha"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnn2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Starbuck Double Shot Espresso Latte"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnn3"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="Starbuck Double Shot Energi Vanila"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnn4"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/str1"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnn2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/str2"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnn1"/>
+
+    <Button
+        android:id="@+id/btnn3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/str3"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnn2"/>
+
+    <Button
+        android:id="@+id/btnn4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/str4"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnn3"/>
+
+    <Button
+        android:id="@+id/btnn5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/str5"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20sp"
+        android:text="Pilih"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnn4"/>
+
+
+</RelativeLayout>
